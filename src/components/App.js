@@ -4,6 +4,7 @@ import Header from "./Header";
 import Movie from "./Movie";
 import spinner from "../assets/ajax-loader.gif";
 import Search from "./Search";
+import Footer from "./Footer";
 import { initialState, reducer } from "../store/reducer";
 import axios from "axios";
 
