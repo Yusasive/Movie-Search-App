@@ -71,6 +71,7 @@ const App = () => {
         <p className="App-intro">Sharing a few of our favorite movies</p>
 
         <div className="movies">{retrievedMovies}</div>
+        <Footer />
       </div>
     </div>
   );
