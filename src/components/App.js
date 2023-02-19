@@ -64,11 +64,11 @@ const App = () => {
   return (
     <div className="App">
       <div className="m-container">
-        <Header text="YUSASIVE SEARCH ENGINE FOR MOVIE" />
+        <Header text="YUSASIVE Movie Search Application" />
 
-        <Search search={Search} />
+        <Search search={search} />
 
-        <p className="App-intro">Take a bit look at your movie below</p>
+        <p className="App-intro">Sharing a few of our favorite movies</p>
 
         <div className="movies">{retrievedMovies}</div>
       </div>
